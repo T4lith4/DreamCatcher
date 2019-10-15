@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://talitha:TN7kxsdf7tzMQv2u@talithacluster-lzcm1.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret" : "sl_secret"
+}
