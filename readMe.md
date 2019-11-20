@@ -1,16 +1,16 @@
-# SOFTWARE REQUIREMENTS FOR DREAM CATCHER - how to get the app up and running
-# System Architecture
+# The follwoing technologies were utilized to build this app
 
-Stack:
+
 
 Redux
 React
 Mongo DB
 Node
 Express
+JSON Web Tokens
 
-The web stack I plan to use will be the MERN Stack, as well as Redux and JWT
-(JSON Web Tokens https://jwt.io/) will be set up for user authentication.
+
+JSON Web Tokens (https://jwt.io/) will be set up for user authentication.
 
 # How to install, and run the app
 
