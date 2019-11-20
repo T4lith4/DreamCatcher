@@ -1,4 +1,4 @@
-# The follwoing technologies were utilized to build this app
+# The following technologies were utilized to build this app
 
 
 
