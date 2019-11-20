@@ -1,5 +1,4 @@
-# SOFTWARE REQUIREMENTS AND ARCHITECTURE DOCUMENTATION FOR DREAM CATCHER
-
+# SOFTWARE REQUIREMENTS FOR DREAM CATCHER - how to get the app up and running
 # System Architecture
 
 Stack:
@@ -115,7 +114,7 @@ git remote add heroku PASTE THE LINK YOU JUST COPIED
 git push heroku master
 heroku open
 
-Your app should then be opened in your browser.
+The app should then be opened in your browser.
 
 
 
