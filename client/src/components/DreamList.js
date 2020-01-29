@@ -37,13 +37,13 @@ class DreamList extends Component {
         return (
           <Container>
               {this.props.isAuthenticated ?  <ListGroup>
-              <TransitionGroup className="dream-list">
+              <TransitionGroup className="dream-list" >
                 {dreams.map(({ _id, name, date, highlight}) => (
-                  <CSSTransition key={_id} timeout={500} classname="fade">
+                  <CSSTransition key={_id} timeout={500} classname="fade" style={{marginBottom:"10px"}}>
                     <ListGroupItem className="dream-items">
                       <div className="dreamList">
-                   <p><h6>Date of entry:</h6>{date}</p> 
-                   <p><h6>Dream Summary:</h6>{name}</p> 
+                   <h6>Date of entry:</h6><p>{date}</p> 
+                   <h6>Dream Summary:</h6><p>{name}</p>
               
                        <Button
                           className="remove-btn"

@@ -20,6 +20,9 @@ import Logout from "./auth/Logout";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
+//import Styles 
+import "../App.css";
+
 //we need to assign state so that the component knows if the nav has been opened or not
 class AppNavBar extends Component {
   state = {
@@ -45,7 +48,7 @@ class AppNavBar extends Component {
     const authLinks = (
       <Fragment>
           <NavItem>
-              <span className="navbar-text mr-3">
+              <span className="navbar-text user-name">
             <strong>{ user? `Welcome ${user.name}` : ' '}</strong>
               </span>
           </NavItem>
@@ -69,7 +72,7 @@ class AppNavBar extends Component {
 
     return (
       <div>
-        <Navbar color="dark" dark expand="sm" className="mb-5">
+        <Navbar color="dark"  expand="sm" className="mb-5">
           <Container>
             <NavbarBrand href="/">Dream Catcher</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />

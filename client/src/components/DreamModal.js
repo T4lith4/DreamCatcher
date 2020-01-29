@@ -61,7 +61,7 @@ class DreamModal extends Component {
       <div>
         {this.props.isAuthenticated ? (
           <div>
-          <h4 className="welcome-msg">What is your subconcious telling you?</h4>
+          <h4 className="welcome-msg">What is your subconscious telling you?</h4>
           <Button
             color="dark"
             className="add-btn"

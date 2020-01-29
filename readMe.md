@@ -66,7 +66,7 @@ root of the project and search for:
 
 config/default.json
 
-Inside the default.json, insert your Mongo URI in place of mine:
+Inside the default.json, insert your Mongo URI:
 {
     "mongoURI":"INSERT URI HERE",
     "jwtSecret" : "sl_secret"

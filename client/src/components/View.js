@@ -7,7 +7,7 @@ export default class View extends React.Component {
       return (
         <Container>
         <div className="login-box">
-         <h4><h1 className="plz-login">Dream Catcher</h1><br/>
+         <h4><div className="plz-login">Dream Catcher</div><br/><br/><br/>
          Log in to Document your Dreams</h4> 
         </div>
         </Container>
