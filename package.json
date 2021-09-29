@@ -28,7 +28,7 @@
     "react-router-dom": "5.0.1"
   },
   "devDependencies": {
-    "i": "0.3.6",
+    "i": "0.3.7",
     "mocha": "6.2.0",
     "nodemon": "1.19.2"
   }
